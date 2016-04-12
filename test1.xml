@@ -33,16 +33,7 @@
           </block>
         </statement>
         <next>
-          <block type="movement_stop" id="10">
-            <next>
-              <block type="oled_drawtext" id="11">
-                <field name="TEXT">Hi</field>
-                <next>
-                  <block type="movement_stop" id="12"></block>
-                </next>
-              </block>
-            </next>
-          </block>
+          <block type="movement_stop" id="10"></block>
         </next>
       </block>
     </next>
