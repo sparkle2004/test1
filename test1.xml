@@ -33,7 +33,11 @@
                   <block type="oled_drawtext" id="10">
                     <field name="TEXT">Hi</field>
                     <next>
-                      <block type="movement_stop" id="11"></block>
+                      <block type="movement_stop" id="11">
+                        <next>
+                          <block type="oled_cleardisplay" id="27"></block>
+                        </next>
+                      </block>
                     </next>
                   </block>
                 </next>
