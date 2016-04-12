@@ -1,32 +1,32 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="movement_forward" id="1" x="41" y="30">
     <next>
-      <block type="oled_cleardisplay" id="65">
+      <block type="oled_cleardisplay" id="2">
         <next>
-          <block type="controls_repeat" id="2" inline="true">
+          <block type="controls_repeat" id="3" inline="true">
             <value name="TIMES">
-              <block type="math_number" id="3">
+              <block type="math_number" id="4">
                 <field name="NUM">5</field>
               </block>
             </value>
             <statement name="DO">
-              <block type="robot_delay" id="4" inline="true">
+              <block type="robot_delay" id="5" inline="true">
                 <value name="DELAY">
-                  <block type="math_number" id="5">
+                  <block type="math_number" id="6">
                     <field name="NUM">1000</field>
                   </block>
                 </value>
                 <next>
-                  <block type="movement_forward" id="37">
+                  <block type="movement_forward" id="7">
                     <next>
-                      <block type="robot_delay" id="6" inline="true">
+                      <block type="robot_delay" id="8" inline="true">
                         <value name="DELAY">
-                          <block type="math_number" id="7">
+                          <block type="math_number" id="9">
                             <field name="NUM">600</field>
                           </block>
                         </value>
                         <next>
-                          <block type="movement_forward" id="47"></block>
+                          <block type="movement_forward" id="10"></block>
                         </next>
                       </block>
                     </next>
@@ -35,18 +35,14 @@
               </block>
             </statement>
             <next>
-              <block type="movement_stop" id="8">
+              <block type="movement_stop" id="11">
                 <next>
-                  <block type="oled_cleardisplay" id="9">
+                  <block type="oled_cleardisplay" id="12">
                     <next>
-                      <block type="oled_drawtext" id="10">
+                      <block type="oled_drawtext" id="13">
                         <field name="TEXT">Hi</field>
                         <next>
-                          <block type="movement_stop" id="11">
-                            <next>
-                              <block type="oled_cleardisplay" id="27"></block>
-                            </next>
-                          </block>
+                          <block type="movement_stop" id="14"></block>
                         </next>
                       </block>
                     </next>
